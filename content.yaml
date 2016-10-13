@@ -801,14 +801,14 @@ chapters:
 
         verses:
           - John 1:14
-          _ Galatians 4:4
-          _ Romans 8:3
-          _ Hebrews 2:14, 16, 17
-          _ Hebrews 4:15
-          _ Matthew 1:22, 23
-          _ Luke 1:27, 31, 35
-          _ Romans 9:5
-          _ 1 Timothy 2:5
+          - Galatians 4:4
+          - Romans 8:3
+          - Hebrews 2:14, 16, 17
+          - Hebrews 4:15
+          - Matthew 1:22, 23
+          - Luke 1:27, 31, 35
+          - Romans 9:5
+          - 1 Timothy 2:5
 
       - number: 3
         text:
@@ -1096,11 +1096,11 @@ chapters:
 
         verses:
           - 2 Timothy 1:9
-          ; Ephesians 2:8
-          ; 1 Corinthians 2:14
-          ; Ephesians 2:5
-          ; John 5:25
-          ; Ephesians 1:19, 20
+          - Ephesians 2:8
+          - 1 Corinthians 2:14
+          - Ephesians 2:5
+          - John 5:25
+          - Ephesians 1:19, 20
 
       - number: 3
         text:
