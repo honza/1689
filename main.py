@@ -11,7 +11,7 @@ def print_latex_preamble():
         print(f.read())
 
 
-def render_latex(data):
+def render_latex(data, footnotes=True):
     print_latex_preamble()
 
     for chapter in data['chapters']:
@@ -20,7 +20,14 @@ def render_latex(data):
         for article in chapter['articles']:
             print('\section{Article ', article['number'], '}')
             print('')
-            print(article['text'].replace('\n', '\n\n'))
+            text = article['text'].replace('\n', '\n\n')
+
+            if footnotes:
+                verses = ' '.join(article['verses'])
+                print(text, '\\footnote{', verses, '}', sep='')
+            else:
+                print(text)
+
             print('')
 
     print('\end{document}')
