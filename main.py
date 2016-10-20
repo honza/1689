@@ -1,4 +1,5 @@
 import os
+import json
 from textwrap import wrap
 
 import yaml
@@ -108,6 +109,19 @@ def render_org(data, args):
                 f.write('\n')
 
 
+def render_json(data, args):
+    filename = os.path.join(args.build_dir, '1689.json')
+
+    if not args.clear:
+        log('Skipping json')
+        return
+
+    log('Writing json')
+
+    with open(filename, 'w') as f:
+        f.write(json.dumps(data, indent=4))
+
+
 def main(args):
     data = read_data()
 
@@ -117,6 +131,7 @@ def main(args):
     render_latex(data, args)
     render_markdown(data, args)
     render_org(data, args)
+    render_json(data, args)
 
 
 if __name__ == '__main__':
