@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #000;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 140%;
+  text-align: justify;
+  width: 30em;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Slabo 27px', serif;
+}
