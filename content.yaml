@@ -230,7 +230,7 @@ chapters:
           - Psalms 90:2
           - Genesis 17:1
           - Isaiah 6:3
-          - Psalms 115:3;
+          - Psalms 115:3
           - Isaiah 46:10
           - Proverbs 16:4
           - Romans 11:36
@@ -545,7 +545,6 @@ chapters:
           - Psalms 76:10
           - Genesis 1:20
           - Isaiah 10:6, 7, 12
-          - Psalms 1:21
           - 1 John 2:16
 
       - number: 5
@@ -635,7 +634,7 @@ chapters:
 
         verses:
           - Romans 3:23
-          - Romans 5:12, etc
+          - Romans 5:12
           - Titus 1:15
           - Genesis 6:5
           - Jeremiah 17:9
@@ -856,7 +855,7 @@ chapters:
           - Psalms 40:7, 8
           - Hebrews 10:5-10
           - John 10:18
-          - Gal 4:4
+          - Galatians 4:4
           - Matthew 3:15
           - Galatians 3:13
           - Isaiah 53:6
@@ -1080,7 +1079,7 @@ chapters:
           - Deuteronomy 30:6
           - Ezekiel 36:27
           - Ephesians 1:19
-          - Psalm 110:3
+          - Psalms 110:3
           - Song of Solomon 1:4
 
       - number: 2
@@ -1671,7 +1670,8 @@ chapters:
           certainty and infallibility thereof.
 
         verses:
-          - Romans 8:30 Romans 9:11, 16
+          - Romans 8:30
+          - Romans 9:11, 16
           - Romans 5:9, 10
           - John 14:19
           - Hebrews 6:17, 18
@@ -1786,7 +1786,6 @@ chapters:
           from utter despair."
 
         verses:
-          - Canticles 5:2, 3, 6
           - Psalms 51:8, 12, 14
           - Psalms 116:11
           - Psalms 77:7, 8
@@ -1903,7 +1902,7 @@ chapters:
           - Romans 8:1
           - Romans 10:4
           - Romans 3:20
-          - Romans 7:7, etc
+          - Romans 7:7
           - Romans 6:12-14
           - 1 Peter 3:8-13
 
@@ -1934,7 +1933,8 @@ chapters:
           salvation of sinners.
 
         verses:
-          - Genesis 3:15; Revelation 13:8 
+          - Genesis 3:15
+          - Revelation 13:8
 
       - number: 2
         text:
