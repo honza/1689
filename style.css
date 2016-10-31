@@ -37,3 +37,8 @@ p {
   margin-right: auto;
   font-family: 'Slabo 27px', serif;
 }
+
+blockquote p {
+  width: 25em;
+  padding-left: 5em;
+}
