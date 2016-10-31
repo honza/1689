@@ -1,5 +1,5 @@
 BUILD=_build
-python main.py -c -d $BUILD
+python main.py -c -e -d $BUILD
 pandoc $BUILD/1689.md -o $BUILD/1689.epub
 pandoc -s --css=style.css $BUILD/1689.md -o $BUILD/1689.html
 ebook-convert $BUILD/1689.epub $BUILD/1689.mobi
