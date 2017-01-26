@@ -11,14 +11,13 @@ def read_data():
         return yaml.load(f.read())
 
 
-
 def load_esv():
     with open('esv.json') as f:
         return json.loads(f.read())
 
 
 def log(m):
-    print(m)
+    print m
 
 
 def get_in(obj, *keys):
@@ -258,7 +257,7 @@ def populate_with_verses(esv, data):
                     if not esv_verse:
                         raise Exception('Cant find verse')
 
-                    if not isinstance(esv_verse, str):
+                    if not isinstance(esv_verse, basestring):
                         keys = list(map(int, esv_verse.keys()))
                         keys.sort()
                         nice = []
