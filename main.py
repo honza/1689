@@ -129,7 +129,7 @@ def render_latex_base(data, args):
         print_latex_preamble(f)
 
         for chapter in data['chapters']:
-            f.write('\chapter{' + chapter['name'] + '}\n')
+            f.write('\chapter{Chapter ' + str(chapter['number']) + ' - ' + chapter['name'] + '}\n')
 
             for article in chapter['articles']:
                 f.write('\section{Article ' + str(article['number']) + '}\n\n')
@@ -164,7 +164,8 @@ def render_markdown(data, args):
         f.write('# 1689 Second London Confession of Faith\n\n')
 
         for chapter in data['chapters']:
-            f.write('## ' + chapter['name'] + '\n\n')
+            f.write('## Chapter ' + str(chapter['number']) + ' -  ' +
+                    chapter['name'] + '\n\n')
 
             for article in chapter['articles']:
                 f.write('### Article ' + str(article['number']) + '\n\n')
