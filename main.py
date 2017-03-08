@@ -286,7 +286,9 @@ def populate_with_verses(esv, data):
 def main(args):
     data = read_data()
     esv = load_esv()
-    data = populate_with_verses(esv, data)
+
+    if args.esv:
+        data = populate_with_verses(esv, data)
 
     if not os.path.exists(args.build_dir):
         os.mkdir(args.build_dir)

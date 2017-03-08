@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
 body {
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Sans serif';
   color: #000;
   text-align: center;
 
@@ -26,7 +23,7 @@ h3 {
   font-size: 30px;
 }
 
-p {
+p, ul {
   font-size: 1.3em;
   line-height: 140%;
   text-align: justify;
