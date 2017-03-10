@@ -15,7 +15,7 @@ echo 'Building doc...'
 pandoc $BUILD/1689.md -o $BUILD/1689.doc
 
 echo 'Building HTML...'
-pandoc -s --css=style.css $BUILD/1689.md -o $BUILD/1689.html
+pandoc -s --css=style.css --template=template.html $BUILD/1689.md -o $BUILD/1689.html
 
 echo 'Building mobi...'
 ebook-convert $BUILD/1689.epub $BUILD/1689.mobi

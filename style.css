@@ -6,36 +6,54 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Sans serif';
   color: #000;
   text-align: center;
-
 }
 
 h1 {
-  font-size: 60px;
-  margin-bottom: 200px;
-  margin-top: 200px;
+  font-size: 40px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 h2 {
-  font-size: 40px;
-}
-
-h3 {
   font-size: 30px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
+
 p, ul {
-  font-size: 1.3em;
-  line-height: 140%;
+  font-size: 1.1em;
+  line-height: 130%;
   text-align: justify;
-  width: 30em;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Slabo 27px', serif;
 }
 
 blockquote p {
   width: 25em;
   padding-left: 5em;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 60px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p, ul {
+    width: 30em;
+  }
 }
